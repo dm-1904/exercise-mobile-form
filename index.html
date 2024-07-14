@@ -8,5 +8,75 @@
 </head>
 <body>
 
+  <form action="">
+
+      <div class="header">
+        <div class="top-header">
+          <!-- <img src="./assets/abstract-shape.png" alt=""> -->
+        </div>
+        <div class="bottom-header">
+          <span class="menu">&#9776;</span>
+        </div>
+      </div>
+
+      <div class="name">
+        <label for="name-input">
+          <img src="./assets/user.png" alt="">
+        </label>
+        <input id="name-input" name="name-input"
+              type="text" required placeholder="Name">
+      </div>
+
+      <div class="phone">
+        <label for="phone-input">
+          <img src="./assets/phone-call.png" alt="">
+        </label>
+        <input id="phone-input" name="phone-input"
+              type="tel" required placeholder="Phone Number"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        <select name="lab" id="label-input">
+          <option value="null" selected>Label</option>
+        </select>
+      </div>
+
+      <div class="address">
+        <label for="address-input">
+          <img src="./assets/marker.png" alt="">
+        </label>
+        <input id="address-input" name="address-input"
+              type="text" required placeholder="Address">
+      </div>
+
+      <div class="city">
+        <input id="city-input" name="city-input"
+              type="text" required placeholder="City">
+      </div>
+
+      <div class="city">
+        <select name="state" id="state">
+          <option value="state" selected>State</option>
+        </select>
+        <input id="zip-input" name="zip-input"
+              type="text" required placeholder="Zip">
+      </div>
+
+      <div class="email">
+        <label for="email-input">
+          <img src="./assets/envelope.png" alt="">
+        </label>
+        <input id="email-input" name="email-input"
+              type="text" required placeholder="Email">
+      </div>
+
+      <div class="birthday">
+        <label for="birthday-input">
+          <img src="./assets/cake-birthday.png" alt="">
+        </label>
+        <input id="birthday-input" name="birthday-input"
+              type="text" required placeholder="Birthday">
+      </div>
+
+  </form>
+
 </body>
 </html>
