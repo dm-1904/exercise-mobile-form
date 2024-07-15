@@ -9,17 +9,27 @@
 <body>
 
   <form action="">
+    <div class="top-header">
+      <span class="box">&#9632;</span>
+      <span class="circle">&#9679;</span>
+      <span class="triangle">&#9660;</span>
 
+    </div>
       <div class="header">
-        <div class="top-header">
-          <!-- <img src="./assets/abstract-shape.png" alt=""> -->
-        </div>
+
         <div class="bottom-header">
           <span class="menu">&#9776;</span>
+          <span class="contacts">Contacts</span>
+          <span class="glass">&#x1F50D</span>
+          <span class="ellipsis">&#8942</span>
+          <!-- <div class="bottom-header-icons">
+
+          </div> -->
         </div>
       </div>
 
-      <div class="name">
+    <div class="input-fields">
+      <div class="name label-input">
         <label for="name-input">
           <img src="./assets/user.png" alt="">
         </label>
@@ -27,7 +37,7 @@
               type="text" required placeholder="Name">
       </div>
 
-      <div class="phone">
+      <div class="phone label-input">
         <label for="phone-input">
           <img src="./assets/phone-call.png" alt="">
         </label>
@@ -39,7 +49,7 @@
         </select>
       </div>
 
-      <div class="address">
+      <div class="address label-input">
         <label for="address-input">
           <img src="./assets/marker.png" alt="">
         </label>
@@ -47,12 +57,12 @@
               type="text" required placeholder="Address">
       </div>
 
-      <div class="city">
+      <div class="city label-input">
         <input id="city-input" name="city-input"
               type="text" required placeholder="City">
       </div>
 
-      <div class="city">
+      <div class="state label-input">
         <select name="state" id="state">
           <option value="state" selected>State</option>
         </select>
@@ -60,7 +70,7 @@
               type="text" required placeholder="Zip">
       </div>
 
-      <div class="email">
+      <div class="email label-input">
         <label for="email-input">
           <img src="./assets/envelope.png" alt="">
         </label>
@@ -68,13 +78,14 @@
               type="text" required placeholder="Email">
       </div>
 
-      <div class="birthday">
+      <div class="birthday label-input">
         <label for="birthday-input">
           <img src="./assets/cake-birthday.png" alt="">
         </label>
         <input id="birthday-input" name="birthday-input"
               type="text" required placeholder="Birthday">
       </div>
+    </div>
 
   </form>
 

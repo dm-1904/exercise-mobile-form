@@ -1,28 +1,85 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 form {
+  width: 320px;
+  margin: 50px auto;
+  /* padding: 20px; */
+  /* background-color: #ffffff; */
+  /* background-color: gray; */
+  border-radius: 8px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
   display: flex;
   flex-direction: column;
-  width: 320px;
-  background-color: lightgray;
 }
 
 
 
 .header {
   display: flex;
-  background-color: rgb(67, 1, 160);
+  background-color: rgb(108, 72, 159);
 
 }
 
-/* .top-header {
+.top-header {
   display: flex;
-  height: 100px;
-} */
+  height: 15px;
+  background-color: gray;
+}
+
+.top-header span {
+  color: white;
+  position: absolute;
+}
+
+.box {
+  padding-left: 280px;
+}
+
+.circle {
+  font-size: 20px;
+  padding-left: 293px;
+  padding-top: -10px;
+  height: 10px;
+}
+
+.triangle {
+  font-size: 12px;
+  padding-left: 305px;
+}
 
 .bottom-header {
-
+  height: 30px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
 }
 
 .menu {
+  padding-left: 10px;
+}
+
+.contacts {
+  padding-left: 20px;
+}
+
+.glass {
+  padding-left: 150px;
+
+}
+
+.ellipsis {
+  padding-left: 25px;
+}
+
+/* .bottom-header-icons {
+  align-self: flex-end;
+} */
+
+.bottom-header span {
   color: white;
 }
 
@@ -33,6 +90,67 @@ input, select {
   border-top-right-radius: 5px;
   border: none;
   border-bottom: 1px solid black;
-  position: relative;
-  
+  /* position: relative; */
+  /* padding-left: 50px; */
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: left;
+}
+
+.label-input {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px 20px 0 0;
+}
+
+.label-input label {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.label-input input, .label-input select {
+  flex: 5;
+  padding: 10px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.input-fields img {
+  height: 20px;
+}
+
+.phone img {
+  padding: 0 12.5px;
+}
+
+.city, .state {
+  padding-left: 55px;
+}
+
+select {
+  height: 42px;
+}
+
+.name input,
+.birthday input,
+.address input,
+.state select,
+#zip-input {
+  border: none;
+  background-color: lightgray;
+  border-radius: 0;
+  border-bottom: 1px solid black;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
