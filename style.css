@@ -7,55 +7,43 @@ body {
 form {
   width: 320px;
   margin: 50px auto;
-  /* padding: 20px; */
-  /* background-color: #ffffff; */
-  /* background-color: gray; */
   border-radius: 8px;
-  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
   display: flex;
   flex-direction: column;
+justify-content: center;
 }
-
-
 
 .header {
   display: flex;
   background-color: rgb(108, 72, 159);
-
 }
 
 .top-header {
   display: flex;
   height: 15px;
   background-color: gray;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
 }
 
 .top-header span {
   color: white;
-  position: absolute;
-}
-
-.box {
-  padding-left: 280px;
+  display: block
 }
 
 .circle {
   font-size: 20px;
-  padding-left: 293px;
-  padding-top: -10px;
-  height: 10px;
 }
 
 .triangle {
   font-size: 12px;
-  padding-left: 305px;
 }
 
 .bottom-header {
   height: 30px;
   display: flex;
   align-items: center;
-  /* justify-content: center; */
 }
 
 .menu {
@@ -75,9 +63,6 @@ form {
   padding-left: 25px;
 }
 
-/* .bottom-header-icons {
-  align-self: flex-end;
-} */
 
 .bottom-header span {
   color: white;
@@ -90,16 +75,11 @@ input, select {
   border-top-right-radius: 5px;
   border: none;
   border-bottom: 1px solid black;
-  /* position: relative; */
-  /* padding-left: 50px; */
-  /* display: flex; */
-  /* flex-direction: column; */
 }
 
 .input-fields {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   align-items: left;
 }
 
